@@ -4,7 +4,6 @@ const BASE_URL =
 
 
 
-
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
 const fromCurr = document.querySelector(".from select");
@@ -72,6 +71,7 @@ msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount.toFixed(2)} ${toCur
 console.error("Error fetching or processing data: ", error);
 }
 });
+
 
 
 
