@@ -1,7 +1,5 @@
 const countryList = {
 
-
-
   
   AED: "AE",
   AFN: "AF",
@@ -163,6 +161,7 @@ const countryList = {
   ZMK: "ZM",
   ZWD: "ZW",
 };
+
 
 
 
