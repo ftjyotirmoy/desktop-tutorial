@@ -7,7 +7,6 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg")
 
-
 for (let select of dropdowns) {
 for (currCode in countryList) {
 let newOption = document.createElement("option");
@@ -69,6 +68,7 @@ msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount.toFixed(2)} ${toCur
 console.error("Error fetching or processing data: ", error);
 }
 });
+
 
 
 
